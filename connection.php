@@ -3,17 +3,27 @@
 
 // https://gentle-depths-81662.herokuapp.com/
 
-
+// *******************localhost ***********
 // $username="root";
 // $password="";
 // $server='localhost';
 // $database="onlinedrproject";
 
-$servername = "mysql-56168-0.cloudclusters.net";
-$username = "admin";
-$password = "bbCxAn2R";
-$dbname   = "onlinedrproject";
-$dbServerPort = "19848";
+// ******************* cloudClustor ********
+// $servername = "mysql-56168-0.cloudclusters.net";
+// $username = "admin";
+// $password = "bbCxAn2R";
+// $dbname   = "onlinedrproject";
+// $dbServerPort = "19848";
+
+
+// ********************* clever-cloud **************
+$servername = "babdau3cb5liglf4pld3-mysql.services.clever-cloud.com";
+$username = "u8uzb2ms5annjlo0";
+$password = "adWdzypRiFEBX9GZxMhJ";
+$dbname   = "babdau3cb5liglf4pld3";
+$dbServerPort = "3306";
+
 
 // Create connection
 $con = new mysqli($servername, $username, $password, $dbname, $dbServerPort,);
