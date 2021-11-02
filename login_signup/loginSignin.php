@@ -52,22 +52,21 @@ else if(isset($_POST['loginform'])) {
         $email_pass = mysqli_fetch_assoc($query);
         $encrypted_pwd =$email_pass['pwd'];
         
-        // storing all the data in session storage, after login  
-        $_SESSION['first_name'] = $email_pass['first_name'];
-        $_SESSION['last_name'] = $email_pass['last_name'];
-        $_SESSION['email_id'] = $email_pass['email_id'];
-        $_SESSION['contact'] = $email_pass['contact'];
-        $_SESSION['gender'] = $email_pass['gender'];
-        $_SESSION['city'] = $email_pass['city'];
-        $_SESSION['age'] = $email_pass['age'];
-        // $_SESSION['username'] = $email_pass['first_name'];
-
+        
         // validation of password in case of password in database in encrypted
         $validation = password_verify($user_enterd_pwd,$encrypted_pwd);
         
         if($validation)
         {
-            // $_SESSION['profile_btn']="./user_Profile/user_profile.php";
+            // storing all the data in session storage, after login  
+            $_SESSION['first_name'] = $email_pass['first_name'];
+            $_SESSION['last_name'] = $email_pass['last_name'];
+            $_SESSION['email_id'] = $email_pass['email_id'];
+            $_SESSION['contact'] = $email_pass['contact'];
+            $_SESSION['gender'] = $email_pass['gender'];
+            $_SESSION['city'] = $email_pass['city'];
+            $_SESSION['age'] = $email_pass['age'];
+           
            ?>
                 <script>
                    location.replace("../user_Profile/user_profile.php");
@@ -87,7 +86,6 @@ else if(isset($_POST['loginform'])) {
         <?php
     }
 
-    // echo "$emaill  $passwordd";
 }
 
 ?>

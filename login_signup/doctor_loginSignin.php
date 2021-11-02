@@ -91,7 +91,7 @@ else if(isset($_POST['loginform'])) {
         $encrypted_pwd =$email_pass['password'];
         
       
-        // $_SESSION['username'] = $email_pass['first_name'];
+        
         
         // validation of password in case of password in database in encrypted
         $validation = password_verify($user_enterd_pwd,$encrypted_pwd);
@@ -119,8 +119,7 @@ else if(isset($_POST['loginform'])) {
             $_SESSION['meeting_link'] = $email_pass['meeting_link'];
             $_SESSION['tag_name'] = $email_pass['tag_name'];
             $_SESSION['profile'] = $email_pass['profile'];  // profile image
-            // echo "<img src='./upload_img/".$_SESSION['profile']."'>";
-            $_SESSION['profile_btn']="./user_Profile/dr_profile.php";
+            
 
            ?>
                 <script>
@@ -141,7 +140,6 @@ else if(isset($_POST['loginform'])) {
         <?php
     }
 
-    // echo "$emaill  $passwordd";
 }
             
 ?>

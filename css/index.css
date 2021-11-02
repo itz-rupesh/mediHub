@@ -1,216 +1,147 @@
-        *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-            /* touch-action: none; */
-            font-family: 'Josefin Sans', sans-serif;
-        }
-        body{
-            overflow-x: hidden;
-            width: 100%;
-            height: inherit;
-        }
-        a{
-            text-decoration: none;
-            color: #242424;    
-        }
-        header{
-            width: 100%;
-            height: inherit;
-            background-image: url('../imgs/bgimg.png');
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-        .mainclass{
-            width: 100%;
-            height: 100px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .mainclass .logo img{
-            width: 240px;
-            height: 80px;
-            padding-left: 20px;
-        }
-        .mainclass nav{
-            width: 450px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-left: 300px;
-        }
-        .mainclass nav a{
-            text-decoration: none;
-            color: black;
-            text-transform: uppercase;
-            font-weight:900;
-        }
-        .helpbtn{
-            margin-right: 20px;
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.top_div{
+    width: 100%;
+    height: inherit;
+    background-image: url('../imgs/bgimg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav_logo{
+    width: 240px;
+    height: 80px;
+}
+.nav-link, .navbar-toggler{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:900;
+}
+#hamburger{    
+    outline: none;
+    border:none;
+}
+.helpbtn #btnID1,#btnID2,#btnID3{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color:rgba(0, 89, 255, 0.645);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    
+}
+#btnID3{
+    margin-bottom: 50px;
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+    line-height: 40px;
+}
+.section1, .section2{
+    margin-top: 80px;
+    
+}
+/* .section2{
+    margin-bottom: 50px;
+} */
+.section1_left{
+    text-align: left;
+}
+.section2_right{
+    text-align: right;
+}
+.ourservices{
+    
+    text-transform: capitalize;
+    line-height: 1.5; 
+}
+.ourservices h3{
+    font-size:1.5vw;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color:#242424;
+}
+.ourservices h1{
+    font-size:2.2vw;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 15px;
+}
+.ourservices p{
+    font-size:1.2vw;
+}
+footer{
+    /* margin-top: 20px; */
+    background-color: rgb(25, 24, 58) ;
+    color:white;
+    /* #c7f5f0  rgb(25, 24, 58)*/
+}
+#address{
+    font-size: 13px;
+}
 
-        }
-        .mainclass button{
-            padding: 10px 20px;
-            text-align: center;
-            font-size: 14px;
-            color: white;
-            border: none;
-            background-color:rgba(0, 89, 255, 0.645);
-            border-radius: 10px;
-            cursor: pointer;
-            outline: none;
-            
-        }
-        main{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 50px;
-        }
-
-        main .right_sec{
-            
-            background-size: 100% 100%;
-            padding-right: 10%;
-        }
-        main .left_sec{
-            padding-left: 100px;
-            text-align: left;
-            text-transform: capitalize;
-                
-        } 
-        .left_sec h3{
-            font-size:20px;
-            text-transform: capitalize;
-            font-weight: lighter;
-            color:#242424;
-            margin-top: 100px;
-        }
-        .left_sec h1{
-            font-size: 30px;
-            text-transform: capitalize;
-            color: black;
-            margin-top: 15px;
-        }
-        .left_sec p{
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        .left_sec button{
-            padding: 10px 40px;
-            text-align: center;
-            font-size: 14px;
-            color: white;
-            border: none;
-            background-color: rgba(0, 89, 255, 0.645);
-            border-radius: 10px;
-            cursor: pointer;
-            outline: none;
-        }
-        
-        /* header end */
-        /* doctor login section */
-        .doctor_login_section{
-            width: 100%;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .left_dr_sec{
-            height: 100%;
-            width: 50%;
-            /* background: red; */
-            text-align: center;
-        }
-
-        #dr_img_2{
-            
-            height: 100%;
-            width: 100%;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        .right_dr_sec{
-            height: 100%;
-            width: 50%;
-            /* background: green; */
-            text-align  : center;
-            
-        }
-          
-        .right_dr_sec .insider_right_dr_sec{
-            margin: 100px;
-            text-align: right;
-        }
-        h1{
-            font-size: 30px;
-            text-transform: capitalize;
-            color: black;
-            margin-top: 15px;
-        }
-        .right_dr_sec .insider_right_dr_sec h3{
-            padding-top: 15px;
-            font-size:20px;
-            text-transform: capitalize;
-            font-weight: lighter;
-            color:#242424;
-            line-height:1.4;
-            /* margin-top: 100px; */
-        }
-        .right_dr_sec .insider_right_dr_sec button{
-            margin-top: 20px;
-            padding: 10px 40px;
-            text-align: center;
-            font-size: 14px;
-            color: white;
-            border: none;
-            background-color: rgba(0, 89, 255, 0.645);
-            border-radius: 10px;
-            cursor: pointer;
-            outline: none;
-        }
-
-
-        /* footer satrt */
-        footer{
-            background-color: #c7f5f0;
-        }
-        .mainfooter{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+.mainfooter{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
             /* margin-top: 10%; */
-            margin-left: 50px;
-            margin-right: 50px;
-            padding:50px;
-            
-            
-        }
-        .list1 ul , .list2 ul , .list3 ul{
-        list-style-type: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding:50px;
+}
+.mainfooter div ul li {
+    list-style-type: none;
+    text-align: justify;
+    margin-top: 5px;
+    
+}
+.mainfooter div ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
 
-        }
-        .list1 ul li, .list2 ul li, .list3 ul li{
-            margin-top: 10px;
-        }
-        /* .list1 ul li a, .list2 ul li a, .list3 ul li a, .topbtn a{
-            text-decoration: none;
-            color: #242424;
-        } */
-        .topbtn {
-            margin-right: 50px;
-            
-            
-        }
-        .list3 ul p{
-            font-size: 13px;
-        }
-        #aaa{
-            text-decoration: none;
-        }
-        /* *********scroll bar */
+}
+.top_arrow #top{
+    margin-top: 800px;
+    
+}
+@media (max-width: 766px){
 
+    .ourservices{
+        text-align: center;
+    }
+    .ourservices h3{
+        font-size:3.0vw;
+        text-transform: capitalize;
+    }
+    .ourservices h1{
+        font-size:4.0vw;
+    }
+    .ourservices p{
+        font-size:2.8vw;
+    }
+    
+    .section1_left{
+        order:1; 
+        /* defoult order is 0 */
+    }
+    .top_arrow{
+        text-align: right;
+    }
+    .foot1, .foot2, .foot3, .foot4{
+          padding-top: 25px;
+    }
+    /* #top{
+        text-align: right;
+    } */
+   
+
+}
