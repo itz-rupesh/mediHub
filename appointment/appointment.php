@@ -214,7 +214,6 @@ if (isset($_SESSION['first_name'])) {
                             </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>

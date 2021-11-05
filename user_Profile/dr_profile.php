@@ -63,17 +63,6 @@ if (!$_SESSION['first_name']) {
         </div>
     </nav>
 </div>
-    <!-- <div class="mainclass">
-        <div class="logo">
-            <img src="../imgs/logoDR.png" alt="img not fount">
-        </div>
-        <nav>
-            <a href="../index.php">home</a>
-            <a href="#home">about</a>
-            <a href="#home">services</a>
-            <a href="#home">contact</a>
-        </nav>
-    </div> -->
 <div class="container-fluid ">
     <div class="outer_main_div">
 
@@ -169,7 +158,7 @@ if (!$_SESSION['first_name']) {
                             Degree :
                         </div>
                         <div class="row_detail_value">
-                            <?php echo $_SESSION['degree'] . " year";  ?>
+                            <?php echo $_SESSION['degree'];  ?>
                         </div>
                     </div>
 
@@ -178,7 +167,7 @@ if (!$_SESSION['first_name']) {
                             Specialist :
                         </div>
                         <div class="row_detail_value">
-                            <?php echo $_SESSION['tag_name'] . " year";  ?>
+                            <?php echo $_SESSION['tag_name'];  ?>
                         </div>
                     </div>
 
@@ -295,6 +284,11 @@ if (!$_SESSION['first_name']) {
             </div>
             <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">
                 <a href="#top" onclick=""><span class="fa fa-2x fa-arrow-circle-up" aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="row mt-5" style="text-align: center;">
+            <div class="col copyright">
+                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
             </div>
         </div>
 </footer>

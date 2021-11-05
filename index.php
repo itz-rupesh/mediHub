@@ -74,7 +74,7 @@
                 <h3>We Are Here For Your Care</h3>
                 <h1>Book Appointment With Doctors Easily</h1>
                 <p>We are here for your care 24/7 Any help Just call us</p>
-                <a href=<?php echo $appoint_btn ?> target=""><button id="btnID2" onmousedown="changebtn('btnID2')" onmouseup="leavbtn('btnID2')">MAKE AN APPOINTMENT</button></a>
+                <a href=<?php echo $appoint_btn ?> target=""><button id="btnID2" onmousedown="changebtn('btnID2')" onmouseup="leavbtn('btnID2')"><i class="fas fa-notes-medical fa-lg"></i>&nbsp;&nbsp;MAKE AN APPOINTMENT</button></a>
               
             </div>
             <div class="col-lg-6 col-md-6 col-12 d-block m-auto section1_right ">
@@ -146,7 +146,7 @@
                     <li>
                         <h5>Contact</h5>
                     </li>
-                    <li>91+ 6260299408</li>
+                    <li>91+ 99777 99555</li>
 
                 </ul>
             </div>
@@ -164,6 +164,11 @@
             </div>
             <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">
                 <a href="#top" onclick=""><span class="fa fa-2x fa-arrow-circle-up" aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="row mt-5" style="text-align: center;">
+            <div class="col copyright">
+                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
             </div>
         </div>
 </footer>

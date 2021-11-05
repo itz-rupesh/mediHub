@@ -282,8 +282,14 @@ else if(isset($_POST['loginform'])) {
             <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">
                 <a href="#top" onclick=""><span class="fa fa-2x fa-arrow-circle-up" aria-hidden="true"></span></a>
             </div>
+        </div>      
+        <div class="row mt-5" style="text-align: center;">
+            <div class="col copyright">
+                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
+            </div>
         </div>
-</footer>  
+    </footer>
+</div>  
 </body>
 </html>
 

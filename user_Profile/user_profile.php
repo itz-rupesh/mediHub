@@ -147,16 +147,8 @@ if (!isset($_SESSION['first_name'])) {
 
                             </div>
                         </div>
-
-
-
-
-
+                        
                         <!-- row footer button -->
-
-
-
-
                         <div class="button_row">
                             <div class="appointment_btn">
                                 <a href="../booked_appointment/patient_appointments.php" target=""><button id="btnID1" onmousedown="changebtn('btnID1')" onmouseup="leavbtn('btnID1')">MY APPOINTMENT</button></a>
@@ -247,6 +239,11 @@ if (!isset($_SESSION['first_name'])) {
             </div>
             <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">
                 <a href="#top" onclick=""><span class="fa fa-2x fa-arrow-circle-up" aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="row mt-5" style="text-align: center;">
+            <div class="col copyright">
+                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
             </div>
         </div>
 </footer>

@@ -36,14 +36,20 @@ if($con){
     // echo "connection successfull";
     ?>
      <script>
-         alert("connection successful !!");
+        //  alert("connection successful !!");
      </script>
    
     <?php
 }else{
     // die("no connection ".mysqli_connect_error());
-    echo "connection not successfull";
-
+    
+    ?>
+    <script>
+        alert("connection unsuccessful !!");
+    </script>
+  
+   <?php
+   echo "connection unsuccessfull !!";
 }
 
 ?>
