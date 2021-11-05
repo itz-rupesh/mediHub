@@ -27,6 +27,7 @@ if (!$_SESSION['first_name']) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/dr_profile.js"></script>
     <title>My Account</title>
 </head>
 
@@ -186,8 +187,8 @@ if (!$_SESSION['first_name']) {
                             Meeting Link :
                         </div>
                         <div class="row_detail_value" id="meet_link_div">
-                            <a id= "meet_link" href=<?php echo $_SESSION['meeting_link']; ?> target="_blank"><?php echo $_SESSION['meeting_link']; ?></a>
-                            &nbsp;<i  onclick="changeLink(<?php echo $_SESSION['doctor_id'] ?>)" class="fas fa-edit fa-sm"></i>
+                            <a id= "meet_link" style="cursor:pointer;" href=<?php echo $_SESSION['meeting_link']; ?> target="_blank"><?php echo $_SESSION['meeting_link']; ?></a>
+                            &nbsp;<i  onclick="changeLink(<?php echo $_SESSION['doctor_id'] ?>)" style="cursor:pointer;" class="fas fa-edit fa-sm"></i>
                         </div>
                     </div>
 
@@ -288,7 +289,7 @@ if (!$_SESSION['first_name']) {
         </div>
         <div class="row mt-5" style="text-align: center;">
             <div class="col copyright">
-                <p class=""><small class="text-white-50">© 2021 MediHUB, All Rights Reserved.</small></p>
+                <p class=""><small class="text-white-50">© 2021 MadiHUB, All Rights Reserved.</small></p>
             </div>
         </div>
 </footer>
