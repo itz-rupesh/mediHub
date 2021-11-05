@@ -145,8 +145,7 @@ if (isset($_POST['registration'])) {
 
 <head>
     <?php include 'links.php'; ?>
-    <!-- <link rel="stylesheet" href="../css/navbar.css" type="text/css">
-     <link rel="stylesheet" href="../css/footer.css" type="text/css"> -->
+    
     <title>MediHub-login/sign-up</title>
 </head>
 
@@ -389,7 +388,7 @@ if (isset($_POST['registration'])) {
             </div>
             <div class="row mt-5" style="text-align: center;">
             <div class="col copyright">
-                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
+                <p class=""><small class="text-white-50">© 2021 MediHUB, All Rights Reserved.</small></p>
             </div>
         </div>
         </footer>

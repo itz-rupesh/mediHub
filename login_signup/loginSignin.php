@@ -285,7 +285,7 @@ else if(isset($_POST['loginform'])) {
         </div>      
         <div class="row mt-5" style="text-align: center;">
             <div class="col copyright">
-                <p class=""><small class="text-white-50">MediHUB © 2021. All Rights Reserved.</small></p>
+                <p class=""><small class="text-white-50">© 2021 MediHUB, All Rights Reserved.</small></p>
             </div>
         </div>
     </footer>
