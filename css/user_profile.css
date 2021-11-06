@@ -230,7 +230,11 @@ footer{
     /* margin-top: 20px; */
     background-color: rgb(25, 24, 58) ;
     color:white;
+  /* width: 100%; */
+    /* width: 100%;
+    height:fit-content; */
     /* #c7f5f0  rgb(25, 24, 58)*/
+    
 }
 #address{
     font-size: 13px;

@@ -222,7 +222,7 @@ else if(isset($_POST['loginform'])) {
             <div class="col-lg-2 col-md-6 col-12 d-block m-auto ml-auto sm-auto foot1">
                 <ul>
                     <li>
-                        <h4>MadiHUB</h4>
+                        <h4>MediHUB</h4>
                     </li>
                     <li><a href="#home">About Us</a></li>
                     <li><a href="#home">Blog</a></li>
@@ -251,7 +251,7 @@ else if(isset($_POST['loginform'])) {
             <div class="col-lg-4 col-md-6 col-12 d-block m-auto ml-auto foot3">
                 <ul>
                     <li>
-                        <h4>MadiHUB Health India Pvt Ltd</h4>
+                        <h4>MediHUB Health India Pvt Ltd</h4>
                     </li>
                     <li>Bangalore,</li>
                     <li>
@@ -285,7 +285,7 @@ else if(isset($_POST['loginform'])) {
         </div>      
         <div class="row mt-5" style="text-align: center;">
             <div class="col copyright">
-                <p class=""><small class="text-white-50">© 2021 MadiHUB, All Rights Reserved.</small></p>
+                <p class=""><small class="text-white-50">© 2021 MediHUB, All Rights Reserved.</small></p>
             </div>
         </div>
     </footer>
