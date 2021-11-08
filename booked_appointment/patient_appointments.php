@@ -26,6 +26,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1ec188ca56.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@402&display=swap" rel="stylesheet">
     
     <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
     <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
@@ -193,22 +194,22 @@
                                 Bangalore – 560001</p>
                         </li>
                         <li>
-                            <h5>Contact</h5>
+                            <h4>Contact</h4>
                         </li>
-                        <li>91+ 6260299408</li>
-
+                        <li><a href="#home">91+ 99777 56666</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-5 col-12 d-block m-auto ml-auto foot4">
                     <ul>
                         <li>
-                            <h5>SOCIAL LINK</h5>
+                            <h4>SOCIAL LINK</h4>
                         </li>
                         <li><a href=""><span class="fa fa-facebook-square" aria-hidden="true"></span> FaceBook</a></li>
                         <li><a href=""><span class="fa fa-instagram" aria-hidden="true"></span> Instagram</a></li>
                         <li> <a href=""><span class="fa fa-youtube-square" aria-hidden="true"></span> YouTube</a></li>
                         <li><a href=""><span class="fa fa-twitter-square" aria-hidden="true"></span> Twitter</a></li>
                         <li><a href=""><span class="fa fa-linkedin-square" aria-hidden="true"></span> Linkedin</a></li>
+                        <li><a href="mailto:helpdesk@medihub.com"><span class="fas fa-envelope-square fa-md" aria-hidden="true"></span> Mail</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">

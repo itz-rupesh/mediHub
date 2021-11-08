@@ -219,22 +219,24 @@ if (!isset($_SESSION['first_name'])) {
                             Bangalore – 560001</p>
                     </li>
                     <li>
-                        <h5>Contact</h5>
+                        <h4>Contact</h4>
                     </li>
-                    <li>91+ 6260299408</li>
+                    <li><a href="#home">91+ 99777 56666</a></li>
 
                 </ul>
             </div>
             <div class="col-lg-3 col-md-5 col-12 d-block m-auto ml-auto foot4">
                 <ul>
                     <li>
-                        <h5>SOCIAL LINK</h5>
+                        <h4>SOCIAL LINK</h4>
                     </li>
                     <li><a href=""><span class="fa fa-facebook-square" aria-hidden="true"></span> FaceBook</a></li>
                     <li><a href=""><span class="fa fa-instagram" aria-hidden="true"></span> Instagram</a></li>
                     <li> <a href=""><span class="fa fa-youtube-square" aria-hidden="true"></span> YouTube</a></li>
                     <li><a href=""><span class="fa fa-twitter-square" aria-hidden="true"></span> Twitter</a></li>
                     <li><a href=""><span class="fa fa-linkedin-square" aria-hidden="true"></span> Linkedin</a></li>
+                    <li><a href="mailto:helpdesk@medihub.com"><span class="fas fa-envelope-square fa-md" aria-hidden="true"></span> Mail</a></li>
+
                 </ul>
             </div>
             <div class="col-lg-1 col-md-1 col-12 d-block m-auto ml-auto top_arrow">

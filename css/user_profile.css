@@ -238,6 +238,7 @@ footer{
 }
 #address{
     font-size: 13px;
+    color: rgb(189, 189, 189);
 }
 
 .mainfooter{
@@ -258,10 +259,14 @@ footer{
     
 }
 .mainfooter div ul li a{
-    color: white;
+    color: rgb(189, 189, 189);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
+}
+.mainfooter div ul li h4{
+    color: rgb(255, 255, 255);
+    font-size: medium;
 }
 .top_arrow #top{
     margin-top: 800px;
