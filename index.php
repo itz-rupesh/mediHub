@@ -166,7 +166,7 @@
                 <a href="#top" onclick=""><span class="fa fa-2x fa-arrow-circle-up" aria-hidden="true"></span></a>
             </div>
         </div>
-        <div class="row mt-5" style="text-align: center;">
+        <div class="row mt-5" style="text-align: center; width:97%">
             <div class="col copyright">
                 <p class=""><small class="text-white-50">© 2021 MediHUB, All Rights Reserved.</small></p>
             </div>

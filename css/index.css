@@ -1,6 +1,10 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
 }
+body{
+    width: 100%;
+
+}
 .top_div{
     width: 100%;
     height: inherit;
