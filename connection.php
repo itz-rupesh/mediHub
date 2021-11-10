@@ -36,7 +36,7 @@ if($con){
     // echo "connection successfull";
     ?>
      <script>
-        //  alert("connection successful !!");
+         alert("connection successful !!");
      </script>
    
     <?php

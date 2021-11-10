@@ -144,7 +144,7 @@ else if(isset($_POST['loginform'])) {
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active text-align form-new" id="login" role="tabpanel" aria-labelledby="home-tab">
-                        <h3 class="register-heading">Enter Login Details</h3>
+                        <h3 class="register-heading ">Enter Login Details</h3>
                         <div class="row register-form">
                             <div class="col-md-12">
                                 <form action="<?php htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
@@ -156,7 +156,7 @@ else if(isset($_POST['loginform'])) {
                                     </div>
                                     <div class="form-group">
                                         <input type="submit" name="loginform" class="btnContactSubmit" value="Login" required/>
-                                        <a href="ForgetPassword.php" class="btnForgetPwd" value="Login">Forget Password?</a>
+                                        <a href="#" class="btnForgetPwd" value="Login">Forget Password?</a>
                                     </div>
                                 </form>
                             </div>
@@ -165,7 +165,7 @@ else if(isset($_POST['loginform'])) {
                     <div class="tab-pane fade show text-align form-new" id="sign-up" role="tabpanel" aria-labelledby="profile-tab">
                         <h3 class="register-heading">Create an Account</h3>
                         <div class="row register-form">
-                            <div class="col-md-12">
+                            <div class="col-md-12 ">
                                 <form action="./loginSignin.php" method="POST">
                                     <div class="form-group">
                                         
@@ -188,10 +188,10 @@ else if(isset($_POST['loginform'])) {
                                         <input type="text" name="age" minlength="1" maxlength="3" class="form-control" placeholder="age *" required />
                                     </div>
                                     <div class="form-group">
-                                        <p id="redio_btn">Select Gender :
-                                            <input class="subButton" class="form-control" type="radio" value="male" name="gender" required> Male
-                                            <input class="subButton" type="radio" value="female" name="gender" required> Female
-                                            <input class="subButton" type="radio" value="other" name="gender" required> Other
+                                        <p id="redio_btn">Select Gender :<br>
+                                            <input class="subButton" class="form-control" type="radio" value="male" name="gender" required> Male<br>
+                                            <input class="subButton" type="radio" value="female" name="gender" required> Female<br>
+                                            <input class="subButton" type="radio" value="other" name="gender" required> Other<br>
                                         </p>
                                     </div>
 
