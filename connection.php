@@ -18,12 +18,18 @@
 
 
 // ********************* clever-cloud **************
-$servername = "babdau3cb5liglf4pld3-mysql.services.clever-cloud.com";
-$username = "u8uzb2ms5annjlo0";
-$password = "adWdzypRiFEBX9GZxMhJ";
-$dbname   = "babdau3cb5liglf4pld3";
-$dbServerPort = "3306";
+// $servername = "babdau3cb5liglf4pld3-mysql.services.clever-cloud.com";
+// $username = "u8uzb2ms5annjlo0";
+// $password = "adWdzypRiFEBX9GZxMhJ";
+// $dbname   = "babdau3cb5liglf4pld3";
+// $dbServerPort = "3306";
 
+
+$servername = "brusz7uyfhm1d1f1y3jd-mysql.services.clever-cloud.com";
+$username = "ubklwlcpsetnbeg3";
+$password = "Oinu4pzjtcXrsaClCKr0";
+$dbname   = "brusz7uyfhm1d1f1y3jd";
+$dbServerPort = "3306";
 
 // Create connection
 $con = new mysqli($servername, $username, $password, $dbname, $dbServerPort,);
